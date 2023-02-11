@@ -18,7 +18,7 @@ const slider = new A11YSlider(document.querySelector(".slider"), {
   responsive: {
     480: {
       dots: false, // dots disabled 1280px and up
-      arrows: true,
+      arrows: false,
     },
   },
 });
